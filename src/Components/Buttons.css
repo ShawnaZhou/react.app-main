@@ -1,0 +1,360 @@
+a.btnInUsed:link, a.btnInUsed:visited {
+    position: relative;
+    display: block;
+    margin: 30px auto 0;
+    padding: 14px 15px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: .08em;
+    border-radius: 0;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+a.btnInUsed:link:after, a.btnInUsed:visited:after {
+    content: "";
+    position: absolute;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    width: 150%;
+    z-index: -1;
+    -webkit-transition: all 0.75s ease 0s;
+    -moz-transition: all 0.75s ease 0s;
+    -o-transition: all 0.75s ease 0s;
+    transition: all 0.75s ease 0s;
+}
+
+a.btnInUsed:link:hover:after, a.btnInUsed:visited:hover:after {
+    height: 450%;
+}
+
+a.btnInUsed:link, a.btnInUsed:visited {
+    position: relative;
+    display: block;
+    margin: 30px auto 0;
+    padding: 14px 15px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 0;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: .08em;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    border: 2px solid #fff;
+}
+
+a.btnInUsed#btn1_1:after {
+    background: #D24D57;
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+
+a.btnInUsed#btn1_2:after {
+    background: #D24D57;
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+    transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+
+a.btnInUsed#btn1_3:after {
+    background: #D24D57;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+a.btnInUsed#btn1_4:after {
+    background: #D24D57;
+    -moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+    -ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+    -webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+    transform: translateY(-50%) translateX(-50%) rotate(90deg);
+}
+
+a.btnInUsed#btn2_1:after {
+    border: 3px solid rgb(219, 37, 92);
+    opacity: 0;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+a.btnInUsed#btn2_1:hover:after {
+    height: 120% !important;
+    opacity: 1;
+    color: #FFF;
+}
+
+a.btnInUsed#btn2_2:after {
+    border: 5px solid rgb(219, 37, 92);
+    opacity: 0;
+    -moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+    -ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+    -webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+    transform: translateY(-50%) translateX(-50%) rotate(90deg);
+}
+
+a.btnInUsed#btn2_2:hover:after {
+    height: 600% !important;
+    opacity: 1;
+    color: #FFF;
+}
+
+a.btnInUsed#btn2_3:after {
+    border: 5px solid rgb(219, 37, 92);
+    opacity: 0;
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+
+a.btnInUsed#btn2_3:hover:after {
+    height: 400% !important;
+    opacity: 1;
+    color: #FFF;
+}
+
+a.btnInUsed#btn2_4:after {
+    border: 5px solid rgb(219, 37, 92);
+    opacity: 0;
+    -moz-transform: translateY(-50%) translateX(-50%) rotate(25deg);
+    -ms-transform: translateY(-50%) translateX(-50%) rotate(25deg);
+    -webkit-transform: translateY(-50%) translateX(-50%) rotate(25deg);
+    transform: translateY(-50%) translateX(-50%) rotate(25deg);
+}
+
+a.btnInUsed#btn2_4:hover:after {
+    height: 400% !important;
+    opacity: 1;
+    color: #FFF;
+}
+
+a.btnInUsed#btn3_1:after {
+    opacity: 0;
+    background-image: -webkit-linear-gradient( transparent 50%, rgba(238, 15, 190, 1) 50%);
+    background-image: -moz-linear-gradient(transparent 50%, rgba(219, 5, 5, 1) 50%);
+    background-size: 10px 10px;
+    transform: translateX(-50%) translateY(-50%) rotate(25deg);
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+
+a.btnInUsed#btn3_1:hover:after {
+    height: 600% !important;
+    opacity: 1;
+    color: #FFF;
+}
+
+a.btnInUsed#btn3_2:after {
+    opacity: 0;
+    background-image: -webkit-linear-gradient( transparent 50%, rgba(101, 179, 122, 0.2) 50%);
+    background-image: -moz-linear-gradient(transparent 50%, rgba(101, 179, 122, 0.2) 50%);
+    background-size: 10px 10px;
+    transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+
+a.btnInUsed#btn3_2:hover:after {
+    height: 600% !important;
+    opacity: 1;
+    color: #FFF;
+}
+
+a.btnInUsed#btn3_3:after {
+    opacity: 0;
+    background-image: -webkit-linear-gradient( transparent 50%, rgba(101, 179, 122, 0.2) 50%);
+    background-image: -moz-linear-gradient(transparent 50%, rgba(101, 179, 122, 0.2) 50%);
+    background-size: 10px 10px;
+    transform: translateX(-50%) translateY(-50%) rotate(90deg);
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+}
+
+a.btnInUsed#btn3_3:hover:after {
+    height: 600% !important;
+    opacity: 1;
+    color: #FFF;
+}
+
+a.btnInUsed#btn3_4:after {
+    opacity: 0;
+    background-image: -webkit-linear-gradient( transparent 50%, rgba(101, 179, 122, 0.2) 50%);
+    background-image: -moz-linear-gradient(transparent 50%, rgba(101, 179, 122, 0.2) 50%);
+    background-size: 10px 10px;
+    transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+a.btnInUsed#btn3_4:hover:after {
+    height: 600% !important;
+    opacity: 1;
+    color: #FFF;
+}
+
+a.btnInUsed#btn4_1 {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: 2px solid #d0d5dd;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+a.btnInUsed#btn4_1:hover {
+    color: #fff !important;
+    background-color: transparent;
+    text-shadow: none;
+}
+
+a.btnInUsed#btn4_1:hover:before {
+    bottom: 0%;
+    top: auto;
+    height: 100%;
+}
+
+a.btnInUsed#btn4_1:before {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 0px;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    color: #fff !important;
+    background: #d20d0d;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+a.btnInUsed#btn4_2 {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: 2px solid #F7CA18;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+a.btnInUsed#btn4_2:hover {
+    color: #000 !important;
+    background-color: transparent;
+    text-shadow: none;
+}
+
+a.btnInUsed#btn4_2:hover:before {
+    top: 0%;
+    bottom: auto;
+    height: 100%;
+}
+
+a.btnInUsed#btn4_2:before {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 0px;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    color: #000 !important;
+    background: #F7CA18;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+a.btnInUsed#btn4_3 {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: 2px solid #F7CA18;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+a.btnInUsed#btn4_3:hover {
+    color: #000 !important;
+    background-color: transparent;
+    text-shadow: nthree;
+}
+
+a.btnInUsed#btn4_3:hover:before {
+    left: 0%;
+    right: auto;
+    width: 100%;
+}
+
+a.btnInUsed#btn4_3:before {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    content: '';
+    color: #000 !important;
+    background: #F7CA18;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+a.btnInUsed#btn4_4 {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: 2px solid #F7CA18;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+a.btnInUsed#btn4_4:hover {
+    color: #000 !important;
+    background-color: transparent;
+    text-shadow: nfour;
+}
+
+a.btnInUsed#btn4_4:hover:before {
+    right: 0%;
+    left: auto;
+    width: 100%;
+}
+
+a.btnInUsed#btn4_4:before {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    content: '';
+    color: #000 !important;
+    background: #F7CA18;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
