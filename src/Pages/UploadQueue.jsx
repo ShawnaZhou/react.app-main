@@ -108,7 +108,7 @@ const UploadQueue = () => {
               value={editInputValue}
               onClose={() => handleClose(index)}
             >
-              <span>{tag}</span>
+              <span style={{minWidth:'80%'}}>{tag}</span>
             </Tag>
           );
         })}
