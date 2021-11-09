@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Tag, message } from "antd";
 import { useHistory } from "react-router-dom";
-import Buttons from "../Components/Buttons";
+import Button from "../Components/Buttons.jsx";
 import "./UploadQueue.css";
 
 const UploadQueue = () => {
@@ -41,6 +41,7 @@ const UploadQueue = () => {
   };
   const uploadData = () => {
     let tag = tags.join("||%&");
+    console.log("tag", tag);
     let data = {
       title: title,
       userId: user.id,
@@ -108,7 +109,7 @@ const UploadQueue = () => {
               value={editInputValue}
               onClose={() => handleClose(index)}
             >
-              <span style={{minWidth:'80%'}}>{tag}</span>
+              <span style={{ minWidth: "80%" }}>{tag}</span>
             </Tag>
           );
         })}
@@ -158,11 +159,11 @@ const UploadQueue = () => {
       >
         It was a dark and stormy night...
       </textarea>
-      <Buttons
+      <Button
         width="10rem"
         id="btn4_1"
+        onClick={() => uploadData()}
         content="upload"
-        onCLick={() => uploadData()}
       />
     </div>
   );
