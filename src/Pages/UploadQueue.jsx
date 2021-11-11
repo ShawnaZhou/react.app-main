@@ -11,7 +11,6 @@ const UploadQueue = () => {
   const [tags, setTags] = useState(["a", "b", "c"]);
   const [inputVisible, setInputVisible] = useState(false);
   const [editInputValue, setEditInputValue] = useState("");
-
   const changeContent = (e) => {
     setContent(e.target.value);
   };
